@@ -1,6 +1,8 @@
 {
   "globals": {
     "esnext": true,
+    "esversion": 6,
+    "moz": true,
     "jasmine": false,
     "spyOn": false,
     "it": false,
@@ -16,6 +18,8 @@
     "confirm": false
   },
   "esnext": true,
+  "esversion": 6,
+  "moz": true,
   "node" : true,
   "browser" : true,
   "boss" : false,
