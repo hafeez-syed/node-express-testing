@@ -1,37 +1,37 @@
 {
-  "version": "0.0.0",
+  "name": "node-express-testing",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node ./src/server/server",
     "test": "./node_modules/mocha/bin/_mocha"
   },
   "dependencies": {
-    "body-parser": "~1.15.1",
+    "body-parser": "~1.19.0",
     "connect-flash": "^0.1.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "3.1.0",
-    "dotenv": "^2.0.0",
-    "express": "~4.13.4",
-    "express-session": "^1.14.0",
-    "knex": "^0.11.10",
+    "cookie-parser": "~1.4.4",
+    "debug": "4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "express-session": "^1.17.0",
+    "knex": "^0.20.0",
     "morgan": ">=1.9.1",
-    "nunjucks": "^2.4.2",
-    "pg": "7.4.3"
+    "nunjucks": "^3.2.0",
+    "pg": "7.12.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^3.0.0",
-    "gulp-jscs": "^4.0.0",
-    "gulp-jshint": "^2.0.1",
-    "gulp-nodemon": "^2.1.0",
-    "gulp-plumber": "^1.1.0",
-    "jshint": "^2.9.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "gulp-jscs": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-plumber": "^1.2.1",
+    "jshint": "^2.10.2",
     "jshint-stylish": "^2.2.1",
-    "mocha": "^3.0.2",
+    "mocha": "^6.2.2",
     "mocha-jscs": "^5.0.1",
     "mocha-jshint": "^2.3.1",
-    "run-sequence": "^1.2.2",
-    "tiny-lr": "^0.2.1"
-  },
-  "name": "ChangeMe"
+    "run-sequence": "^2.2.1",
+    "tiny-lr": "^1.1.1"
+  }
 }
